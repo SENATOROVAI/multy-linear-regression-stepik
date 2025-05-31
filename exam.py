@@ -17,7 +17,7 @@ model.fit(X, y)
 
 # Коэффициенты
 b0 = model.intercept_
-b1, b2 = model.coef_
+b1, b2 = 
 
 print(f"Уравнение: price = {b0:.2f} + {b1:.2f}*area + {b2:.2f}*rooms")
 
