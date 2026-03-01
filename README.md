@@ -93,7 +93,7 @@ Otherwise, the matrix is singular and the solution is not uniquely defined.
 ## Installation
 
 ```bash
-git clone https://github.com/USERNAME/Normal-equations-solver-simple-linear-regression.git
+git clone https://github.com/USERNAME/Normal-equations-solver-multiple-linear-regression.git
 cd Normal-equations-solver-simple-linear-regression
 pip install -r requirements.txt
 
