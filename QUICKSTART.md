@@ -1,6 +1,6 @@
 # Quick Start
 
-This guide helps you get up and running quickly with the **L-BFGS Solver Course** project — from installation to running your first optimization.
+This guide helps you get up and running quickly with the **Normal-equation-solver-multiple-linear-regression-course** project — from installation to running your first optimization.
 
 ---
 
@@ -9,8 +9,8 @@ This guide helps you get up and running quickly with the **L-BFGS Solver Course*
 First, fork the repository (optional) and clone it locally:
 
 ```bash
-git clone https://github.com/SENATOROVAI/lbfgs-solver-course.git
-cd lbfgs-solver-course
+git clone https://github.com/SENATOROVAI/Normal-equation-solver-multiple-linear-regression-course.git
+cd Normal-equation-solver-multiple-linear-regression-course
 ````
 
 ---
@@ -48,7 +48,7 @@ poetry install
 ## 📁 4. Explore Project Structure
 
 ```text
-lbfgs-solver-course/
+Normal-equation-solver-multiple-linear-regression-course/
 │
 ├── docs/                  # GitHub Pages & documentation
 ├── theory/                # Mathematical derivations
@@ -69,7 +69,6 @@ A minimal usage example with a quadratic objective:
 
 ```python
 import numpy as np
-from solver.lbfgs import LBFGS
 
 def f(x):
     return np.sum(x**2)
@@ -79,9 +78,6 @@ def grad(x):
 
 # Initial guess
 x0 = np.array([5.0, -3.0, 2.0])
-
-optimizer = LBFGS()
-x_opt = optimizer.minimize(f, grad, x0)
 
 print("Optimal x:", x_opt)
 ```
