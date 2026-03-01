@@ -1,6 +1,6 @@
 # Contributing Guidelines
 
-Thank you for your interest in contributing to the **L-BFGS Solver Course** project.
+Thank you for your interest in contributing to the **Normal-equation-solver-multiple-linear-regression-course** project.
 
 We welcome improvements in:
 
@@ -36,8 +36,8 @@ All contributions must respect these principles.
 Fork the project and clone your fork locally:
 
 ```bash
-git clone https://github.com/<your-username>/lbfgs-solver-course.git
-cd lbfgs-solver-course
+git clone https://github.com/<your-username>/Normal-equation-solver-multiple-linear-regression-course.git
+cd Normal-equation-solver-multiple-linear-regression-course
 
 ---
 
