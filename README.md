@@ -1,6 +1,6 @@
 # https://stepik.org/a/242962
 
-# Normal Equations Solver for Simple Linear Regression
+# Normal Equations Solver for Multy Linear Regression
 
 [![License](https://img.shields.io/badge/license-MIT-brightgreen.svg)](LICENSE)
 
