@@ -5,7 +5,7 @@ title: "Normal Equations Solver for Multiple Linear Regression"
 
 version: "0.1.0"
 
-doi: ""
+doi: "10.5281/zenodo.18820271"
 
 date-released: "2026-03-01"
 
@@ -36,8 +36,8 @@ abstract: >
 
 preferred-citation:
   type: report
-  doi: ""
-  title: "L-BFGS Solver Course"
+  doi: "10.5281/zenodo.18820271"
+  title: "Solver Course"
   authors:
     - family-names: "Senatorov"
       given-names: "Ruslan"
