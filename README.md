@@ -4,7 +4,7 @@
 
 [![License](https://img.shields.io/badge/license-MIT-brightgreen.svg)](LICENSE)
 
-A research-oriented implementation of the **Normal Equations method** for solving the Multy Linear Regression problem in closed form.
+A research-oriented implementation of the **Normal Equations method** for solving the Multiple Linear Regression problem in closed form.
 
 ---
 
