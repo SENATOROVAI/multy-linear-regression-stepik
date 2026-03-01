@@ -1,1 +1,94 @@
 # https://stepik.org/a/242962
+
+# Normal Equations Solver for Simple Linear Regression
+
+[![License](https://img.shields.io/badge/license-MIT-brightgreen.svg)](LICENSE)
+
+A research-oriented implementation of the **Normal Equations method** for solving the Multy Linear Regression problem in closed form.
+
+---
+
+## Overview
+
+This repository provides a mathematically explicit implementation of the Normal Equations approach for solving the least squares problem:
+
+$$
+\min_{\beta} \|X\beta - y\|_2^2
+$$
+
+The closed-form solution is given by:
+
+$$
+\hat{\beta} = (X^T X)^{-1} X^T y
+$$
+
+where:
+
+- $X \in \mathbb{R}^{n \times p}$ is the design matrix  
+- $y \in \mathbb{R}^n$ is the target vector  
+- $\beta \in \mathbb{R}^p$ is the parameter vector  
+
+---
+
+## Mathematical Derivation
+
+The objective function is:
+
+$$
+J(\beta) = (X\beta - y)^T (X\beta - y)
+$$
+
+Taking the gradient with respect to $\beta$:
+
+$$
+\nabla_\beta J = 2 X^T (X\beta - y)
+$$
+
+Setting the gradient to zero:
+
+$$
+X^T X \beta = X^T y
+$$
+
+Assuming $X^T X$ is invertible:
+
+$$
+\beta^* = (X^T X)^{-1} X^T y
+$$
+
+---
+
+## Assumptions
+
+The Normal Equations require:
+
+$$
+\text{rank}(X) = p
+$$
+
+so that:
+
+$$
+\det(X^T X) \neq 0
+$$
+
+Otherwise, the matrix is singular and the solution is not uniquely defined.
+
+---
+
+## Features
+
+- Explicit matrix-based implementation
+- Minimal NumPy dependencies
+- Research-friendly structure
+- Suitable for educational use
+- Fully reproducible closed-form solver
+
+---
+
+## Installation
+
+```bash
+git clone https://github.com/USERNAME/Normal-equations-solver-simple-linear-regression.git
+cd Normal-equations-solver-simple-linear-regression
+pip install -r requirements.txt
