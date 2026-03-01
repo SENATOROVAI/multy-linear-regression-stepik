@@ -1,6 +1,6 @@
 # Support Policy
 
-Thank you for using and exploring the **L-BFGS Solver Course** project!  
+Thank you for using and exploring the **Normal-equation-solver-multiple-linear-regression-course** project!  
 This document explains how to get help, ask questions, and contribute to discussions.
 
 ---
