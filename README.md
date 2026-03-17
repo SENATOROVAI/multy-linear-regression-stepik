@@ -1,4 +1,4 @@
-# https://stepik.org/a/242962
+#### https://SenatorovAI.com
 
 # Normal Equations Solver for Multy Linear Regression
 
